@@ -1,0 +1,10 @@
+[27-May-2021 01:42:16 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\55649\Local Sites\mythemestudy\app\public\wp-content\themes\my-theme\index.php on line 48
+[27-May-2021 03:20:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\55649\Local Sites\mythemestudy\app\public\wp-content\themes\my-theme\functions.php on line 3 and at least 2 expected in C:\Users\55649\Local Sites\mythemestudy\app\public\wp-includes\plugin.php:409
+Stack trace:
+#0 C:\Users\55649\Local Sites\mythemestudy\app\public\wp-content\themes\my-theme\functions.php(3): add_action()
+#1 C:\Users\55649\Local Sites\mythemestudy\app\public\wp-settings.php(528): include('C:\\Users\\55649\\...')
+#2 C:\Users\55649\Local Sites\mythemestudy\app\public\wp-config.php(77): require_once('C:\\Users\\55649\\...')
+#3 C:\Users\55649\Local Sites\mythemestudy\app\public\wp-load.php(37): require_once('C:\\Users\\55649\\...')
+#4 C:\Users\55649\Local Sites\mythemestudy\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\55649\\...')
+#5 {main}
+  thrown in C:\Users\55649\Local Sites\mythemestudy\app\public\wp-includes\plugin.php on line 409

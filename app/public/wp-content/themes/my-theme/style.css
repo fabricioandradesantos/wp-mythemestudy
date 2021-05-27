@@ -1,0 +1,17 @@
+/*
+Theme Name: My Theme
+The Uri: http://mythemestudy.com
+Author: Fabricio Andrade Santos
+Author URI: https://www.linkedin.com/in/fabricioandradesantos
+Description: Tema desenvolvido durante meus estudos de WP,PHP, HTML e CSS.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.0.html
+Text Domain: mythemestudy
+Tags: responsive, two-column, full-width
+Domain: /languages
+*/
+
+body{
+    background: green;
+}
